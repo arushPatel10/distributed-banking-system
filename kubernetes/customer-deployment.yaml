@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: banking-system-customer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: banking-system-customer
+  template:
+    metadata:
+      labels:
+        app: banking-system-customer
+    spec:
+      containers:
+      - name: customer
+        image: arushpatel/banking-system-customer
+        args: ["python", "Customer.py", "input.json"]

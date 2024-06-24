@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "type": "customer",
+        "branch_id": 1,
+        "events": [
+            {"id": 1, "interface": "deposit", "money": 100},
+            {"id": 2, "interface": "query"}
+        ]
+    },
+    {
+        "id": 2,
+        "type": "customer",
+        "branch_id": 2,
+        "events": [
+            {"id": 3, "interface": "deposit", "money": 200},
+            {"id": 4, "interface": "query"}
+        ]
+    },
+    {
+        "id": 3,
+        "type": "customer",
+        "branch_id": 3,
+        "events": [
+            {"id": 5, "interface": "deposit", "money": 300},
+            {"id": 6, "interface": "query"}
+        ]
+    },
+    {
+        "id": 4,
+        "type": "customer",
+        "branch_id": 4,
+        "events": [
+            {"id": 7, "interface": "withdraw", "money": 400},
+            {"id": 8, "interface": "query"}
+        ]
+    },
+    {
+        "id": 5,
+        "type": "customer",
+        "branch_id": 5,
+        "events": [
+            {"id": 9, "interface": "deposit", "money": 500},
+            {"id": 10, "interface": "query"}
+        ]
+    },
+    {
+        "id": 6,
+        "type": "customer",
+        "branch_id": 6,
+        "events": [
+            {"id": 11, "interface": "withdraw", "money": 600},
+            {"id": 12, "interface": "query"}
+        ]
+    },
+    {
+        "id": 7,
+        "type": "customer",
+        "branch_id": 7,
+        "events": [
+            {"id": 13, "interface": "deposit", "money": 700},
+            {"id": 14, "interface": "query"}
+        ]
+    },
+    {
+        "id": 8,
+        "type": "customer",
+        "branch_id": 8,
+        "events": [
+            {"id": 15, "interface": "withdraw", "money": 800},
+            {"id": 16, "interface": "query"}
+        ]
+    },
+    {
+        "id": 9,
+        "type": "customer",
+        "branch_id": 9,
+        "events": [
+            {"id": 17, "interface": "deposit", "money": 900},
+            {"id": 18, "interface": "query"}
+        ]
+    },
+    {
+        "id": 10,
+        "type": "customer",
+        "branch_id": 10,
+        "events": [
+            {"id": 19, "interface": "deposit", "money": 1000},
+            {"id": 20, "interface": "query"}
+        ]
+    },
+    {
+        "id": 1,
+        "type": "branch",
+        "balance": 1000
+    },
+    {
+        "id": 2,
+        "type": "branch",
+        "balance": 2000
+    },
+    {
+        "id": 3,
+        "type": "branch",
+        "balance": 3000
+    },
+    {
+        "id": 4,
+        "type": "branch",
+        "balance": 4000
+    },
+    {
+        "id": 5,
+        "type": "branch",
+        "balance": 5000
+    },
+    {
+        "id": 6,
+        "type": "branch",
+        "balance": 6000
+    },
+    {
+        "id": 7,
+        "type": "branch",
+        "balance": 7000
+    },
+    {
+        "id": 8,
+        "type": "branch",
+        "balance": 8000
+    },
+    {
+        "id": 9,
+        "type": "branch",
+        "balance": 9000
+    },
+    {
+        "id": 10,
+        "type": "branch",
+        "balance": 10000
+    }
+]

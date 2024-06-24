@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./banking_pb2_",
+        "./banking_pb2_"
+    ]
+}
